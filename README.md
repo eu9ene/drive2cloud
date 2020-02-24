@@ -32,18 +32,16 @@
   
   Manual run mode:
   
-  to rebuild local files index
-  python3 drive2cloud.py --reindex True
+  to rebuild local files index `python3 drive2cloud.py --reindex True`
   
-  to use local file index
-  python3 drive2cloud.py --reindex False
+  to use local file index `python3 drive2cloud.py --reindex False`
   
   Server mode:
   
-  python3 drive2cloud.py --reindex True --interval-hours 24
+  `python3 drive2cloud.py --reindex True --interval-hours 24`
   
-  or with Docker:
-  bash docker_run.sh
+  or with Docker
+  `bash docker_run.sh`
   
   
 
